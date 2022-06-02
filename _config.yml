@@ -3,7 +3,7 @@ plugins:
   - jekyll-include-cache
 
 image:
-  path:    /assets/img/f10_dilution_fridge.jpg
+  path:    /assets/img/f10_dilution_fridge.png
 
 menu:
   - title: Blog
