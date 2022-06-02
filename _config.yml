@@ -3,7 +3,7 @@ plugins:
   - jekyll-include-cache
 
 image:
-  path:    /assets/img/f10_dilution_fridge.png
+  path:    
 
 menu:
   - title: Blog
@@ -14,3 +14,6 @@ menu:
     url:   /resume/
   - title: About
     url:   /about/
+
+accent_image:          /assets/img/f10_dilution_fridge.png
+accent_color:          rgb(79,177,186)
