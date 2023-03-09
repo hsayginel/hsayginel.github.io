@@ -19,6 +19,9 @@ menu:
 accent_image:          /assets/img/f10_dilution_fridge.png # Morton Lab (F10 dilution fridge)
 accent_color:          rgb(79,177,186)
 
+# icon
+favicon: /assets/icons/favicon.ico
+apple_touch_icon: /assets/icons/icon-192x192.png
 
 # plugins
 plugins:
