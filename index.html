@@ -4,13 +4,22 @@
 	<meta charset="utf-8">
 	<title>{{ site.title }}</title>
 	<link rel="icon" type="image/png" href="{{ site.favicon }}" sizes="32x32">
+    <link rel="apple-touch-icon" href="{{ site.apple_touch_icon }}" sizes="180x180">
+    <link rel="icon" type="image/png" href="{{ site.android_chrome_192 }}" sizes="192x192">
+    <link rel="icon" type="image/png" href="{{ site.android_chrome_512 }}" sizes="512x512">
 	<link rel="stylesheet" href="{{ site.style }}">
-	<style>
-		body {
-			background-color: {{ site.background_color }};
-			color: {{ site.text_color }};
-		}
-	</style>
+    <style>
+        body {
+            background-color: #fff; /* set default background color */
+            color: #333; /* set default text color */
+        }
+        
+        body.dark-mode {
+            background-color: #333; /* set dark mode background color */
+            color: #fff; /* set dark mode text color */
+        }
+    </style>    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<header>
