@@ -1,7 +1,7 @@
-favicon: /path/to/favicon.png
-apple_touch_icon: /path/to/apple-touch-icon.png
-android_chrome_192: /path/to/android-chrome-192x192.png
-android_chrome_512: /path/to/android-chrome-512x512.png
+favicon: assets/icons/favicon.ico
+apple_touch_icon: assets/icons/icon-192x192.png
+android_chrome_192: assets/icons/icon-192x192.png
+android_chrome_512: assets/icons/icon-512x512.png
 
 title: My Website
 description: This is my website.
