@@ -1,0 +1,151 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+.sidebar {
+  width: 300px; /* Change this value to adjust the width of your sidebar */
+  float: left;
+  top: 0;
+  left: 0;
+}
+
+.sidebar-image {
+  position: fixed;
+  width: 25%; /* Width of sidebar */
+  height: 100%; /* Height of sidebar */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Change this value to adjust the text color of your sidebar content */
+  text-align: center; /* Change this value to adjust the alignment of your sidebar content */
+  top: 0;
+  left: 0;
+}
+
+.sidebar-content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.sidebar-content h1{
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 1px;
+}
+
+.sidebar-content h1:hover{
+  color: #000;
+}
+
+.sidebar-content h3{
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.sidebar-content h3:hover{
+  color: #000;
+}
+
+.sidebar-content img {
+  margin-top: 20px;
+  width: 127.35px;
+  height: 146.85px;
+  border-radius: 60%;
+  margin-bottom: 20px;
+}
+
+// remove toc bullet points
+.sidebar-toc {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  margin-top: 24px;
+}
+
+// remove indentation of bullet point elements
+.sidebar-toc li {
+  list-style-type: none;
+  padding-left: -1.5em;
+  text-indent: -1.5em;
+  margin-bottom: 20px;
+}
+
+// remove toc heading
+.sidebar-toc h5 {
+  display: none;
+}
+
+// white, large font for toc
+.sidebar-toc a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.sidebar-toc a:hover {
+  color: #000; /* Add color property for hover state */
+  }
+
+// bold fonts
+.sidebar-toc {
+  font-weight: bold;
+}
+
+.sidebar-toc > li {
+  font-weight: bold;
+}
+
+.sidebar-toc li li {
+  font-weight: normal;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+
+.social-icons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin: 60px 10px 0 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.social-icons a img.icon {
+  display: block;
+  max-width: 80%;
+  height: auto;
+}
+
+.page-content{
+  margin-left: 300px;
+}
+
+footer{
+  margin-left: 300px;
+}

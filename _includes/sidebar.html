@@ -1,0 +1,22 @@
+<div class="sidebar">
+  <div class="sidebar-image" style="background-image: url('/assets/images/f10_dilution_fridge.jpg');">
+    <div class="sidebar-content">
+      <a href=https://www.hasansayginel.com><h1>Hasan Sayginel</h1></a>
+      <a href=https://www.hasansayginel.com><h3>PhD student at UCL</h3></a>
+      <a href=https://www.hasansayginel.com> <img src="/assets/images/hasan_profile.png" alt="Profile Picture"></a>
+      <div class="sidebar-toc">
+        <ul>
+          {% for page in site.pages %}
+            {% if page.layout == "page" %}
+              <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      {% include social-icons.html %}
+    </div>
+  </div>
+  <!-- Add other sidebar content here -->
+</div>
+
+
